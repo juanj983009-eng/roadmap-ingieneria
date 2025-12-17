@@ -18,7 +18,7 @@ print("\n>>> Ejemplo 2: Lanzamiento de Cohete")
 for contador in range(10, 0, -1):
     print(f"T-minus: {contador}")
     time.sleep(1) # Descomenta esto para ver el efecto de espera real
-    
+
 print("🚀 ¡DESPEGUE!")
 
 # 3. ACUMULADOR (Patrón de Diseño básico)

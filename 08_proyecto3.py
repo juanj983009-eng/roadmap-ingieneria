@@ -18,8 +18,8 @@ print(f"La máquina eligió: {eleccion_maquina}")
 if eleccion_usuario == eleccion_maquina:
     print("¡Es un empate!")
 elif (eleccion_usuario == "Piedra" and eleccion_maquina == "Tijera") or \
-     (eleccion_usuario == "Papel" and eleccion_maquina == "Piedra") or \
-     (eleccion_usuario == "Tijera" and eleccion_maquina == "Papel"):
+(eleccion_usuario == "Papel" and eleccion_maquina == "Piedra") or \
+(eleccion_usuario == "Tijera" and eleccion_maquina == "Papel"):
     print("¡Felicidades! ¡Ganaste!")
 else:
     print("¡La máquina gana! ¡Mejor suerte la próxima vez!")
