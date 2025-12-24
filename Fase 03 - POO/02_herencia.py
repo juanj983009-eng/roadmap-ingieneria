@@ -38,6 +38,15 @@ class Mago(Personaje):
             print(f"🔥 {self.nombre} lanza Bola de Fuego! (Mana restante: {self.mana})")
         else:
             print(f"💧 {self.nombre} no tiene suficiente mana.")
+class Arquero(Personaje):
+    def __init__(self, nombre, hp, disparar):
+        super().__init__(nombre, hp)
+        self.disparar = disparar
+
+    def disparar_flecha(self):
+        if self.disparar >= 5:
+            self.disparar -= 5
+            print(f"🏹 {self.nombre} dispara una flecha! (Flechas restantes: {self.disparar})")
 
 # --- ZONA DE JUEGO ---
 print("--- COMIENZA LA AVENTURA ---")
@@ -45,11 +54,12 @@ print("--- COMIENZA LA AVENTURA ---")
 # Instanciamos las clases hijas
 guts = Guerrero("Guts", 200, 50)
 gandalf = Mago("Gandalf", 100, 50)
+legolas = Arquero("Legolas", 120, 90)
 
 # Usamos métodos heredados (info)
 guts.info()
 gandalf.info()
-
+legolas.info()
 # Usamos métodos propios
 guts.ataque_espada()
 gandalf.lanzar_hechizo()
@@ -58,3 +68,4 @@ gandalf.lanzar_hechizo()
 # Probamos herencia de métodos base
 guts.morir()
 guts.info()
+legolas.disparar_flecha()
