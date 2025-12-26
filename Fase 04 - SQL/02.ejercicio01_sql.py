@@ -7,7 +7,7 @@ cursor = conexion.cursor()
 # 1. LIMPIEZA (Opcional, para no llenar de basura)
 # DELETE FROM borra datos, pero deja la tabla viva.
 # ¡CUIDADO! Si no pones WHERE, borra TODO.
-cursor.execute("DELETE FROM usuarios") 
+cursor.execute("DELETE FROM usuarios")
 print("🧹 Base de datos limpiada.")
 
 # 2. INSERCIÓN MASIVA (executemany)
