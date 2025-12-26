@@ -1,0 +1,4 @@
+[2025-12-25 19:53:26] Día 1: He aprendido a guardar datos.
+[2025-12-25 19:53:26] Día 2: Python es más poderoso de lo que creía.
+[2025-12-25 19:55:02] Día 1: He aprendido a guardar datos.
+[2025-12-25 19:55:02] Día 2: Python es más poderoso de lo que creía.
