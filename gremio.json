@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Merlin",
+        "nivel": 1,
+        "clase": "Guerrero",
+        "fuerza": 100
+    },
+    {
+        "nombre": "Ozy",
+        "nivel": 1,
+        "clase": "Mago",
+        "mana": 100
+    }
+]
